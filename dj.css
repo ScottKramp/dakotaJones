@@ -1,0 +1,426 @@
+/*font-family: 'Bungee Shade', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Ewert', cursive;
+font-family: 'Monoton', cursive;*/
+
+body{
+    margin: 0px;
+}
+.clear{
+    clear: both;
+}
+/*BARS*/
+.bar {
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 40px;
+    width: 100%;
+}
+.bar1{
+    background-color: #fadad7;
+}
+.bar2{
+    background-color: #faebd7;
+}
+.bar3{
+    background-color: #d7e6fa;
+}
+
+.followMeBar {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.followMeBar.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.followMeBar.fixed.absolute {
+  position: absolute;
+}
+
+/*TCJ*/
+.tcjContain{
+    background-image: url('../img/tcj.jpg');
+    background-color: black;
+    width: 100%;
+    height: 870px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+    margin-top: 110px;
+}
+.sticker {
+    background-image: url('../img/dj-logo-sticker-black.jpg');
+    height: 240px;
+    width: 600px;
+    background-size: cover;
+    margin-right: 0px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+.stickerText{
+    color: #434343;
+    font-family: 'Josefin Sans', sans-serif;    
+    height: 240px;
+    width: 600px;
+    background-size: cover;
+    margin-right: 0px;
+    position: absolute;
+    right: 100px;
+    top: 340px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*SJK*/
+.sjkContain {
+    background-image: url('../img/sjk.jpg');
+    background-color: black;
+    width: 100%;
+    height: 750px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    margin-top: 110px;
+}
+.musicContain {
+    max-width: 640px;
+    margin-left: 100px;
+}
+.musicRow {
+    height: 320px;
+    width: 100%;
+}
+.musicCell {
+    float: left;
+    width: 50%;
+    height: 190px;
+    color: #434343;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 130px;
+}
+.musicCell a {
+    color: inherit;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: #434343 solid 3px;
+    padding-bottom: 5px;
+}
+/*TAG*/
+.tagContain {
+    background-image: url('../img/tag.jpg');
+    background-color: black;
+    width: 100%;
+    height: 750px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-top: 110px;
+    background-size: contain;
+}
+.eventsContain {
+    background-color: rgba(0,0,0,.75);
+    max-width: 1000px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    float: right;
+    margin-right: 100px;
+    color: #fff;
+}
+.eventsHeader {
+    height: 75px;
+    color: #434343;
+}
+.eventsHeader div:nth-child(n){
+    height: 50px;
+    float: left;
+    padding-top: 19px;
+    border-top-color: #434343;
+    border-right-color: #434343;
+    border-bottom-color: #999999;
+    border-left-color: #434343;
+    border-style: solid;
+}
+.dateHead {
+    width: 194px;
+    text-align: center;
+    border-width: 3px;
+}
+.timeHead {
+    width: 197px;
+    text-align: center;
+    border-width: 3px 3px 3px 0px;
+}
+.venueHead {
+    width: 378px;
+    padding-left: 19px;
+    border-width: 3px 3px 3px 0px;
+}
+.ticketsHead {
+    width: 197px;
+    text-align: center;
+    border-width: 3px 3px 3px 0px;
+}
+.eventItem{
+    height: 75px;
+}
+.eventItem div:nth-child(n){
+    height: 50px;
+    float: left;
+    padding-top: 22px;
+    border-color: #999999;
+    border-style: solid;
+}
+.eventItem a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: #434343 solid 3px;
+    /*padding-bottom: 3px;*/
+}
+.dateItem {
+    width: 194px;
+    text-align: center;
+    border-width: 0px 3px 3px 3px;
+}
+.timeItem {
+    width: 197px;
+    text-align: center;
+    border-width: 0px 3px 3px 0px;
+}
+.timeItem sup{
+    font-size: 15px;
+}
+.venueItem {
+    width: 378px;
+    padding-left: 19px;
+    border-width: 0px 3px 3px 0px;
+}
+.ticketsItem {
+    width: 197px;
+    text-align: center;
+    border-width: 0px 3px 3px 0px;
+}
+/*SGR*/
+.sgrContain {
+    background-image: url('../img/steve.jpg');
+    background-color: black;
+    width: 100%;
+    height: 540px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-top: 110px;
+    background-size: 60%;
+}
+.connectContain{
+    max-width: 1200px;
+    margin: auto;
+}
+.connectItem{
+    float: left;
+    width: 20%;
+    color: #434343;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.connectItem a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: #434343 solid 3px;
+    padding-bottom: 5px;
+}
+/*1200-1000*/
+@media (max-width: 1199px){
+    /*TCJ*/
+    .tcjContain{
+        height: 650px;
+    }
+    /*SJK*/
+    .sjkContain {
+        height: 650px;
+        margin-top: 40px;
+    }
+    /*TAG*/
+    .eventsContain {
+        background-color: rgba(0,0,0,.75);
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+}
+/*999-800*/
+@media (max-width: 999px){
+    .bar {
+        height: 60px;
+        padding-top: 30px;
+    }
+    /*SJK*/
+    .musicContain {
+        background-color: rgba(0,0,0,.75);
+    }
+    .musicCell{
+        color: #fff;
+    }
+    .musicCell a{
+        border-bottom: #fff solid 3px;
+    }
+    /*TAG*/
+    .eventsContain{
+        max-width: 800px;
+    }
+    .dateHead, .dateItem{
+        width: 155px;
+    }
+    .timeHead, .timeItem{
+        width: 157px;
+    }
+    .venueHead, .venueItem {
+        width: 297px;
+    }
+    .ticketsHead, .ticketsItem {
+        width: 157px;
+    }
+    /*SGR*/
+    .sgrContain{
+        margin-top: 50px; 
+    }
+    .connectContain{
+        background-color: rgba(0,0,0,.75);
+    }
+    .connectItem {
+        float: none;
+        height: 60px;
+        margin: auto;
+        color: #fff;
+    }
+    .connectItem a{
+        border-bottom: #fff solid 3px;
+    }
+
+}
+/*799-600*/
+@media (max-width: 799px){
+    /*TCJ*/
+    .tcjContain {
+        height: 400px;
+    }
+    .sticker {
+        height: 152px;
+        width: 400px;
+        background-size: contain;
+        position: absolute;
+        right: 0px;
+        background-repeat: no-repeat;
+    }
+    .stickerText {
+        height: 20px;
+        width: 290px;
+        background-size: cover;
+        margin-right: 0px;
+        position: absolute;
+        right: 10px;
+        top: 280px;
+    }
+    /*SJK*/
+    .sjkContain {
+        height: 550px;
+        margin-top: 40px;
+    }
+    .musicContain {
+        max-width: 600px;
+        margin: auto;
+    }
+    .musicRow {
+        height: auto;
+    }
+    .musicCell {
+        float: none;
+        height: 50px;
+        margin: 30px auto;
+    }
+    /*TAG*/
+    .tagContain{
+        margin-top: 70px;
+    }
+    .eventsContain{
+        max-width: 600px;
+        font-size: 18px;
+    }
+    .dateHead, .dateItem {
+        width: 114px;
+    }
+    .timeHead, .timeItem {
+        width: 117px;
+    }
+    .venueHead, .venueItem {
+        width: 237px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .ticketsHead, .ticketsItem {
+        width: 117px;
+    }
+    /*SGR*/
+    .connectItem{
+        width: 100%;
+    }
+}
+/*599-400*/
+@media (max-width: 599px){
+    /*SJK*/
+    .sjkContain {
+        height: 470px;
+    }
+    /*TAG*/
+    .tagContain{
+        height: 600px;
+    }
+    .eventsContain{
+        max-width: 400px;
+        font-size: 16px;
+    }
+    .eventsHeader {
+        height: 55px;
+    }
+    .eventsHeader div:nth-child(n){
+        height: 30px;
+    }
+    .dateHead, .dateItem {
+        width: 74px;
+    }
+    .timeHead, .timeItem {
+        width: 77px;
+    }
+    .venueHead, .venueItem {
+        width: 157px;
+    }
+    .ticketsHead, .ticketsItem {
+        width: 77px;
+    }
+    /*SGR*/
+    .sgrContain{
+        height: 440px;
+    }
+
+}
+/*sub 400*/
+@media (max-width: 399px){
+
+}
+
